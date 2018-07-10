@@ -1,1 +1,45 @@
+body, div, h1, p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    width: 28%;
+    margin-left: 16px;
+}
+
+.col:first-of-type  {
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 100%;
+    margin: 32px 0 8px 0;
+}
+p {
+    font-size: 15px;
+    line-height: 120%;
+    margin: 8px 0;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
 
