@@ -1,8 +1,8 @@
 /* rubik-300 - cyrillic_latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: 'RubikLight';
   font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
   src: url('fonts/rubik-v7-cyrillic_latin-300.eot'); /* IE9 Compat Modes */
   src: local('Rubik Light'), local('Rubik-Light'),
        url('fonts/rubik-v7-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -13,9 +13,9 @@
 }
 /* rubik-regular - cyrillic_latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: 'RubikRegular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: url('fonts/rubik-v7-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Rubik'), local('Rubik-Regular'),
        url('fonts/rubik-v7-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -26,9 +26,9 @@
 }
 /* rubik-500 - cyrillic_latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: 'RubikMedium';
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   src: url('fonts/rubik-v7-cyrillic_latin-500.eot'); /* IE9 Compat Modes */
   src: local('Rubik Medium'), local('Rubik-Medium'),
        url('fonts/rubik-v7-cyrillic_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -40,7 +40,7 @@
 
 
 html, body, div, h1, p {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'RubikRegular', sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -73,13 +73,13 @@ p {
 }
 
 .light {
-    font-weight: 300;
+    font-family: 'RubikLight';
 }
 
 .normal {
-    font-weight: 400;
+    font-family: 'RubikRegular';
 }
 
 .medium {
-    font-weight: 500;
+    font-family: 'RubikMedium';
 }
