@@ -114,3 +114,7 @@ li em {
     top:.2em;
     background:#eff2df;
 }
+b {
+  font-size: 20px;
+  top: -8px;
+}
