@@ -43,6 +43,7 @@ html, body, div, h1, p {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialised;
 }
 .content {
     margin: 0 auto;
