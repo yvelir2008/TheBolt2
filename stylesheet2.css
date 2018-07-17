@@ -11,14 +11,14 @@ font-family: 'Ubuntu Condensed', sans-serif;
 */
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p,  {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font-weight: 400;
-        font-family: inherit;
-        vertical-align: baseline;
-    }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: 400;
+  font-family: inherit;
+  vertical-align: baseline;
+}
 
 h1 {
   font-size: 24px;
@@ -28,6 +28,14 @@ h1 {
 p {
   font-size: 15px;
   line-height: 120%;
+}
+
+.content {
+  float: left;
+  position: relative;
+  padding: 16px;
+  width: 33.333333333%;
+  box-sizing: border-box;
 }
 
 .content:nth-child(1) {
