@@ -16,7 +16,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p,  {
   border: 0;
   font-size: 100%;
   font-weight: 400;
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   vertical-align: baseline;
 }
 
@@ -29,6 +29,11 @@ h1 {
 p {
   font-size: 15px;
   line-height: 120%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .content {
@@ -52,14 +57,11 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 .content:nth-child(4) {
-  font-family: 'PT Sans', sans-serif;
-}
-.content:nth-child(5) {
   font-family: 'Nunito', sans-serif;
 }
-.content:nth-child(6) {
+.content:nth-child(5) {
   font-family: 'Dosis', sans-serif;
 }
-.content:nth-child(8) {
+.content:nth-child(6) {
   font-family: 'Hind', sans-serif;
 }
