@@ -65,3 +65,7 @@ p {
 .content:nth-child(6) {
   font-family: 'Hind', sans-serif;
 }
+.content:nth-child(7) {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-variant-numeric: lining-nums;
+}
