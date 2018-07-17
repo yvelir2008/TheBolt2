@@ -23,6 +23,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p,  {
 h1 {
   font-size: 24px;
   line-height: 115%;
+  font-weight: 300;
 }
 
 p {
@@ -32,10 +33,12 @@ p {
 
 .content {
   float: left;
+  overflow: hidden;
   position: relative;
-  padding: 16px;
+  padding: 16px 24px 32px 24px;
   width: 33.333333333%;
   box-sizing: border-box;
+
 }
 
 .content:nth-child(1) {
@@ -55,14 +58,8 @@ p {
   font-family: 'Nunito', sans-serif;
 }
 .content:nth-child(6) {
-  font-family: 'Nanum Gothic', sans-serif;
-}
-.content:nth-child(7) {
   font-family: 'Dosis', sans-serif;
 }
 .content:nth-child(8) {
   font-family: 'Hind', sans-serif;
-}
-.content:nth-child(9) {
-  font-family: 'Ubuntu Condensed', sans-serif;
 }
