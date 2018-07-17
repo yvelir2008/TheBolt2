@@ -33,14 +33,14 @@ p {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
 .content {
   float: left;
   overflow: hidden;
   position: relative;
-  padding: 16px 24px 32px 24px;
+  padding: 8px 16px;
   width: 33.333333333%;
   box-sizing: border-box;
 
