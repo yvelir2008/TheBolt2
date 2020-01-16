@@ -71,16 +71,18 @@
   document.getElementsByTagName('head')[0].appendChild(script);
 </script>
     -->
-    <!-- Start of Survicate (www.survicate.com) code -->
-  <script type="text/javascript">
-    (function (w) {
-      var s = document.createElement('script');
-      s.src = '//survey.survicate.com/workspaces/8e569700b979433979fe88d60628da05/web_surveys.js';
-      s.async = true;
-      var e = document.getElementsByTagName('script')[0];
-      e.parentNode.insertBefore(s, e);
-    })(window);
-  </script>
-<!-- End of Survicate code -->
+<script>
+  ;(function(y, a, f, i) {
+    var head = a.getElementsByTagName('head')[0];
+    var script = a.createElement('script');
+
+    y['_yafi-widget'] = { siteId: i, url: f };
+
+    script.async = 1;
+    script.src = f + 'widget/' + i;
+
+    head.appendChild(script);
+  })(window, document, 'https://widget.yafi.pro/', '5dd28b6243afab002a1a7d1c');
+</script>
   </body>
 </html>
